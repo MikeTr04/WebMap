@@ -6,7 +6,7 @@ WebMap is a python program that was made to solve the task in lab 1.
 
 The task was to create a map with the films that were made the closest to the given location and in a specified year. The locations needed to be marked on a Folium map, and saved in an HTML file. In addition, there needed to be overall 3 feature groups: main group, film locations, and another one with no specific task. In my third group, I put markers on some of Ukraine's biggest cities.
 
-The main group consists of 1 circle marker, which is on the location of the UCU Collegium.
+The main group consists of 1 circle marker, which is on the location location given by the user.
 
 The film location group consists of locations where movies where made and are marked in red icons.
 
