@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_408c6ac6212a4ebd93a3aa568131cd77 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_408c6ac6212a4ebd93a3aa568131cd77" ></div>
+        
+</body>
+<script>    
+    
+            var map_408c6ac6212a4ebd93a3aa568131cd77 = L.map(
+                "map_408c6ac6212a4ebd93a3aa568131cd77",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ccdf1eb1ec09415dac6d20af2d47423b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_408c6ac6212a4ebd93a3aa568131cd77);
+        
+    
+            var feature_group_96fbede79ad740458e9a25a554b3f1d2 = L.featureGroup(
+                {}
+            ).addTo(map_408c6ac6212a4ebd93a3aa568131cd77);
+        
+    
+            var circle_marker_1fc2b29a73684363aa1c073f0b013306 = L.circleMarker(
+                [49.83826, 24.02324],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7, "stroke": true, "weight": 3}
+            ).addTo(feature_group_96fbede79ad740458e9a25a554b3f1d2);
+        
+    
+        var popup_a7523a9a4e254d29b5749165f5e96c7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e359175d7824a3bb151c4c2a1803a13 = $(`<div id="html_5e359175d7824a3bb151c4c2a1803a13" style="width: 100.0%; height: 100.0%;">3, Юліуша Словацького вулиця, Цитадель, Штіллерівка, Галицький район, Львів, Львівська міська громада, Львівський район, Львівська область, 79000, Україна</div>`)[0];
+            popup_a7523a9a4e254d29b5749165f5e96c7a.setContent(html_5e359175d7824a3bb151c4c2a1803a13);
+        
+
+        circle_marker_1fc2b29a73684363aa1c073f0b013306.bindPopup(popup_a7523a9a4e254d29b5749165f5e96c7a)
+        ;
+
+        
+    
+    
+            var feature_group_881e88454b5148f38585873147c594fa = L.featureGroup(
+                {}
+            ).addTo(map_408c6ac6212a4ebd93a3aa568131cd77);
+        
+    
+            var marker_cea0687832734941b45fd5a8d1267e03 = L.marker(
+                [52.4081812, -1.510477],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_42f455aa691b49beaa6ab2cb27dfc883 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cea0687832734941b45fd5a8d1267e03.setIcon(icon_42f455aa691b49beaa6ab2cb27dfc883);
+        
+    
+        var popup_75dcfefbd1d944e28d67bef7bf67536c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cea99f1d862415e96343ddcb164ba2e = $(`<div id="html_9cea99f1d862415e96343ddcb164ba2e" style="width: 100.0%; height: 100.0%;">"#15SecondScare" (2015) {It's Me Jessica (#1.5)}</div>`)[0];
+            popup_75dcfefbd1d944e28d67bef7bf67536c.setContent(html_9cea99f1d862415e96343ddcb164ba2e);
+        
+
+        marker_cea0687832734941b45fd5a8d1267e03.bindPopup(popup_75dcfefbd1d944e28d67bef7bf67536c)
+        ;
+
+        
+    
+    
+            var marker_cc5730981823408685936c490f6c29a9 = L.marker(
+                [40.7127281, -74.0060152],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_c6f469ffb60045f6a00deaaa42e75a35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc5730981823408685936c490f6c29a9.setIcon(icon_c6f469ffb60045f6a00deaaa42e75a35);
+        
+    
+        var popup_e65998ac280e41a090efb599c95d5dea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd0f1c9daf884ef7a00c0962d7c08595 = $(`<div id="html_cd0f1c9daf884ef7a00c0962d7c08595" style="width: 100.0%; height: 100.0%;">"#DearGeorgette" (2015)</div>`)[0];
+            popup_e65998ac280e41a090efb599c95d5dea.setContent(html_cd0f1c9daf884ef7a00c0962d7c08595);
+        
+
+        marker_cc5730981823408685936c490f6c29a9.bindPopup(popup_e65998ac280e41a090efb599c95d5dea)
+        ;
+
+        
+    
+    
+            var marker_f2953522022641e58c588b1aa97dbb4c = L.marker(
+                [40.6526006, -73.9497211],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_50e143f082f14963ac6dbf6ee463d405 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2953522022641e58c588b1aa97dbb4c.setIcon(icon_50e143f082f14963ac6dbf6ee463d405);
+        
+    
+        var popup_d2c0ab4e2a3f440eb8201c58c2169a9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_308be061ce704717b5e0eaec64db376f = $(`<div id="html_308be061ce704717b5e0eaec64db376f" style="width: 100.0%; height: 100.0%;">"#MommasGotBars" (2015)</div>`)[0];
+            popup_d2c0ab4e2a3f440eb8201c58c2169a9c.setContent(html_308be061ce704717b5e0eaec64db376f);
+        
+
+        marker_f2953522022641e58c588b1aa97dbb4c.bindPopup(popup_d2c0ab4e2a3f440eb8201c58c2169a9c)
+        ;
+
+        
+    
+    
+            var marker_52c45ce7cc504614943f52cbd767b521 = L.marker(
+                [43.657091, -79.3490907],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_9bd88aa990f0441da4c808e15d2a8959 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_52c45ce7cc504614943f52cbd767b521.setIcon(icon_9bd88aa990f0441da4c808e15d2a8959);
+        
+    
+        var popup_61ed423b7d5d49f5af2ba6e4c84d8e24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_05ccc70e5d90472585a5ae4f9b582e33 = $(`<div id="html_05ccc70e5d90472585a5ae4f9b582e33" style="width: 100.0%; height: 100.0%;">"#KateConwayisaJerk" (2015) {Helping Miriam Pultro Around Toronto (#1.5)}</div>`)[0];
+            popup_61ed423b7d5d49f5af2ba6e4c84d8e24.setContent(html_05ccc70e5d90472585a5ae4f9b582e33);
+        
+
+        marker_52c45ce7cc504614943f52cbd767b521.bindPopup(popup_61ed423b7d5d49f5af2ba6e4c84d8e24)
+        ;
+
+        
+    
+    
+            var marker_025892e4f8da4529b96bb34d9d37660a = L.marker(
+                [43.648366800000005, -79.37439532076982],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_305ecc61256644109d4ea57b9ae2b262 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_025892e4f8da4529b96bb34d9d37660a.setIcon(icon_305ecc61256644109d4ea57b9ae2b262);
+        
+    
+        var popup_b4ff3787280441eaa1d377b620061d1b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_859fd07fe50e4cb5af8dac681a94d9af = $(`<div id="html_859fd07fe50e4cb5af8dac681a94d9af" style="width: 100.0%; height: 100.0%;">"#KateConwayisaJerk" (2015) {Helping Friends (#1.1)}</div>`)[0];
+            popup_b4ff3787280441eaa1d377b620061d1b.setContent(html_859fd07fe50e4cb5af8dac681a94d9af);
+        
+
+        marker_025892e4f8da4529b96bb34d9d37660a.bindPopup(popup_b4ff3787280441eaa1d377b620061d1b)
+        ;
+
+        
+    
+    
+            var marker_12bb37b8685f4563b03d30ef8ee32e95 = L.marker(
+                [43.6534817, -79.3839347],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_bf39af557a284de0939067787c3e0183 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12bb37b8685f4563b03d30ef8ee32e95.setIcon(icon_bf39af557a284de0939067787c3e0183);
+        
+    
+        var popup_f5477caf85d74f2fa0d9c801f8be60d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd8ee329a944347bab1c4ec5db5e18c = $(`<div id="html_3fd8ee329a944347bab1c4ec5db5e18c" style="width: 100.0%; height: 100.0%;">"#KateConwayisaJerk" (2015)</div>`)[0];
+            popup_f5477caf85d74f2fa0d9c801f8be60d1.setContent(html_3fd8ee329a944347bab1c4ec5db5e18c);
+        
+
+        marker_12bb37b8685f4563b03d30ef8ee32e95.bindPopup(popup_f5477caf85d74f2fa0d9c801f8be60d1)
+        ;
+
+        
+    
+    
+            var marker_ade0eb1e0dad490a973f264b69bf8093 = L.marker(
+                [43.6534817, -79.3839347],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_b34993f880b54d128f15ad3900f5beef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ade0eb1e0dad490a973f264b69bf8093.setIcon(icon_b34993f880b54d128f15ad3900f5beef);
+        
+    
+        var popup_1016847e6e944c8b8e45c7eb2bcad5b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c73eb49f86884825a476110bd663b2ee = $(`<div id="html_c73eb49f86884825a476110bd663b2ee" style="width: 100.0%; height: 100.0%;">"#KateConwayisaJerk" (2015) {Helpful Tips for Getting Over a Breakup (#1.2)}</div>`)[0];
+            popup_1016847e6e944c8b8e45c7eb2bcad5b1.setContent(html_c73eb49f86884825a476110bd663b2ee);
+        
+
+        marker_ade0eb1e0dad490a973f264b69bf8093.bindPopup(popup_1016847e6e944c8b8e45c7eb2bcad5b1)
+        ;
+
+        
+    
+    
+            var marker_d5de68824ae0438883a0a743a5cb254e = L.marker(
+                [43.6534817, -79.3839347],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_90180fe4a11840e8830806f7c7bb5cbc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d5de68824ae0438883a0a743a5cb254e.setIcon(icon_90180fe4a11840e8830806f7c7bb5cbc);
+        
+    
+        var popup_6c4a2bdff7624511aedc735c8afa9053 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ae8180b62ff46bd90b1e6e75feeed7c = $(`<div id="html_7ae8180b62ff46bd90b1e6e75feeed7c" style="width: 100.0%; height: 100.0%;">"#KateConwayisaJerk" (2015) {Helping Keep Your Boyfriend Company (#1.3)}</div>`)[0];
+            popup_6c4a2bdff7624511aedc735c8afa9053.setContent(html_7ae8180b62ff46bd90b1e6e75feeed7c);
+        
+
+        marker_d5de68824ae0438883a0a743a5cb254e.bindPopup(popup_6c4a2bdff7624511aedc735c8afa9053)
+        ;
+
+        
+    
+    
+            var marker_0060a59fe4a443b199f75c24c4e85fd1 = L.marker(
+                [34.2032325, -118.645476],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_cea9ff6b50fe4282afc13e6f43d01578 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0060a59fe4a443b199f75c24c4e85fd1.setIcon(icon_cea9ff6b50fe4282afc13e6f43d01578);
+        
+    
+        var popup_abd0b4da20a14680ac2a90ebc758ca7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3ef4da76e0cf4179af50da0c57f1bfe3 = $(`<div id="html_3ef4da76e0cf4179af50da0c57f1bfe3" style="width: 100.0%; height: 100.0%;">"#15SecondScare" (2015) {Who Wants to Play with the Rabbit? (#1.2)}</div>`)[0];
+            popup_abd0b4da20a14680ac2a90ebc758ca7a.setContent(html_3ef4da76e0cf4179af50da0c57f1bfe3);
+        
+
+        marker_0060a59fe4a443b199f75c24c4e85fd1.bindPopup(popup_abd0b4da20a14680ac2a90ebc758ca7a)
+        ;
+
+        
+    
+    
+            var marker_0b245e105eb5436899425f3c27bd640b = L.marker(
+                [34.2032325, -118.645476],
+                {}
+            ).addTo(feature_group_881e88454b5148f38585873147c594fa);
+        
+    
+            var icon_ad9ab5fd5a574ac2873702ffadf0774d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b245e105eb5436899425f3c27bd640b.setIcon(icon_ad9ab5fd5a574ac2873702ffadf0774d);
+        
+    
+        var popup_d0e61bd670a14d8bba4ac1e37d292c19 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c5851bdfddf41bcb8157779d9c8d9b3 = $(`<div id="html_7c5851bdfddf41bcb8157779d9c8d9b3" style="width: 100.0%; height: 100.0%;">"#15SecondScare" (2015) {Who Wants to Play with the Rabbit? (#1.2)}</div>`)[0];
+            popup_d0e61bd670a14d8bba4ac1e37d292c19.setContent(html_7c5851bdfddf41bcb8157779d9c8d9b3);
+        
+
+        marker_0b245e105eb5436899425f3c27bd640b.bindPopup(popup_d0e61bd670a14d8bba4ac1e37d292c19)
+        ;
+
+        
+    
+    
+            var feature_group_f7c6875f9fcf43f3b913a0a5b746e647 = L.featureGroup(
+                {}
+            ).addTo(map_408c6ac6212a4ebd93a3aa568131cd77);
+        
+    
+            var marker_4875ccc60c944d59aea46fdc92b58c45 = L.marker(
+                [50.4500336, 30.5241361],
+                {}
+            ).addTo(feature_group_f7c6875f9fcf43f3b913a0a5b746e647);
+        
+    
+            var icon_3581c71d0a554bdbbf1be5b636e93518 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4875ccc60c944d59aea46fdc92b58c45.setIcon(icon_3581c71d0a554bdbbf1be5b636e93518);
+        
+    
+        var popup_d3090074ca76467da0431a89bd49ef7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c14a13e4ea6471ebed55b8676a3ccea = $(`<div id="html_0c14a13e4ea6471ebed55b8676a3ccea" style="width: 100.0%; height: 100.0%;">Kyiv, Ukraine</div>`)[0];
+            popup_d3090074ca76467da0431a89bd49ef7d.setContent(html_0c14a13e4ea6471ebed55b8676a3ccea);
+        
+
+        marker_4875ccc60c944d59aea46fdc92b58c45.bindPopup(popup_d3090074ca76467da0431a89bd49ef7d)
+        ;
+
+        
+    
+    
+            var marker_d3c83b9d0b4c4b6fb50fd4997aab48b7 = L.marker(
+                [48.46596125, 34.95939956204188],
+                {}
+            ).addTo(feature_group_f7c6875f9fcf43f3b913a0a5b746e647);
+        
+    
+            var icon_a2d18c9fe49441eb971a47aef70255fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d3c83b9d0b4c4b6fb50fd4997aab48b7.setIcon(icon_a2d18c9fe49441eb971a47aef70255fc);
+        
+    
+        var popup_8bb3e4b70cfc47fb8afe9009cb847b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5b6bfb377c724f5587816d0cf4d326f9 = $(`<div id="html_5b6bfb377c724f5587816d0cf4d326f9" style="width: 100.0%; height: 100.0%;">Dnipro, Ukraine</div>`)[0];
+            popup_8bb3e4b70cfc47fb8afe9009cb847b26.setContent(html_5b6bfb377c724f5587816d0cf4d326f9);
+        
+
+        marker_d3c83b9d0b4c4b6fb50fd4997aab48b7.bindPopup(popup_8bb3e4b70cfc47fb8afe9009cb847b26)
+        ;
+
+        
+    
+    
+            var marker_4adbcf347c5441c9aee52ffe8f13e371 = L.marker(
+                [49.841952, 24.0315921],
+                {}
+            ).addTo(feature_group_f7c6875f9fcf43f3b913a0a5b746e647);
+        
+    
+            var icon_3e23822d804c432abafe4d5e9a4582eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4adbcf347c5441c9aee52ffe8f13e371.setIcon(icon_3e23822d804c432abafe4d5e9a4582eb);
+        
+    
+        var popup_b6192aea0e87485497f1cc4757594a62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd60bda931c14f0a8a60d129d28cbd3e = $(`<div id="html_cd60bda931c14f0a8a60d129d28cbd3e" style="width: 100.0%; height: 100.0%;">Lviv, Ukraine</div>`)[0];
+            popup_b6192aea0e87485497f1cc4757594a62.setContent(html_cd60bda931c14f0a8a60d129d28cbd3e);
+        
+
+        marker_4adbcf347c5441c9aee52ffe8f13e371.bindPopup(popup_b6192aea0e87485497f1cc4757594a62)
+        ;
+
+        
+    
+    
+            map_408c6ac6212a4ebd93a3aa568131cd77.fitBounds(
+                [[34.2032325, -118.645476], [52.4081812, 34.95939956204188]],
+                {}
+            );
+        
+</script>
