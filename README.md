@@ -1,6 +1,6 @@
 # WebMap
 
-WebMap is a python program that was made to solve the task in lab 1.
+WebMap is a python program that was made to solve the second task in lab 1.
 
 ## Purpose
 
