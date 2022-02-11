@@ -1,12 +1,10 @@
 """LAB MAP"""
 
-
 import argparse
 import haversine
 import folium
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderUnavailable
-
 
 parser = argparse.ArgumentParser(description="Task Map")
 parser.add_argument("year", help="year of movie")
@@ -27,9 +25,9 @@ except GeocoderUnavailable:
     LOCATION = "Some location"
 main_group = folium.FeatureGroup()
 main_group.add_child(folium.CircleMarker(location=[lat, lon],
-                                   popup=LOCATION,
-                                   radius=7,
-                                   fill_color="green"))
+                                         popup=LOCATION,
+                                         radius=7,
+                                         fill_color="green"))
 map1.add_child(main_group)
 
 film_locations = folium.FeatureGroup()
