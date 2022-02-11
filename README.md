@@ -25,5 +25,5 @@ The program uses argparse to get the argument values: year, latitude, longitude,
 ```
 Here is the map generated after executing the code above:
 
-![Map example](../../../Desktop/web_map/example.jpg?raw=true)
+![Map example](example.jpg?raw=true)
 
