@@ -14,6 +14,8 @@ The cities group consists of 3 Ukrainian cities and their locations: Kyiv, Lviv,
 
 The map is saved in the directory of the program in the file with the title "map.html".
 
+The amount of entries in the dataset that are being used is limited to 60 to ensure that map generation does not take too much time.
+
 In this task, the modules argparse, haversine, folium, and geopy were used.
 
 ## Usage

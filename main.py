@@ -26,7 +26,7 @@ except GeocoderUnavailable:
 main_group = folium.FeatureGroup()
 main_group.add_child(folium.CircleMarker(location=[lat, lon],
                                          popup=LOCATION,
-                                         radius=7,
+                                         radius=15,
                                          fill_color="green"))
 map1.add_child(main_group)
 
